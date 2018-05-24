@@ -20,4 +20,8 @@ class Author
     @@post_counter += 1 
     post.author = self 
   end
+  
+  def self.post_count 
+    @@post_counter 
+  end   
 end   
