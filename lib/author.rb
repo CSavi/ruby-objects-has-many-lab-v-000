@@ -11,5 +11,6 @@ class Author
     @posts << a_post 
     @posts += 1 
     .post
+  end   
   
 end   
